@@ -49,6 +49,15 @@ p{
     font-size: larger;
     text-decoration: none;
     color: #B1D0E0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+.navbar_item:hover{
+    background-color: rgb(18, 38, 51);
 }
 
 .logo{
@@ -90,8 +99,12 @@ p{
     border-radius: 10px;
     margin: 20px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    text-align: center;
-    
+    text-align: center;   
+}
+
+.showcase_item:hover{
+    background-color: rgba(224, 224, 224, 0.9);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 8px;
     
 }
 
@@ -175,6 +188,6 @@ p{
 }
 
 .productitem{
-    text-align: center;
+    text-align:center;
     
 }
