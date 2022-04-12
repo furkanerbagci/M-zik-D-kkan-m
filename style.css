@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+
+
+body{
+    position: relative;
+}
+
+h2{
+    font-family: 'Acme', sans-serif;
+}
+
+p{
+    font-family: 'Amatic SC', cursive;
+    font-size: larger;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(26, 55, 77, 0.6);   
+    color: #B1D0E0;
+    height: 10vh;
+    padding: 25px;
+    font-size: 20px;
+    position: absolute;
+    top: 0px;
+    position: fixed;
+    width: 100vw;
+    
+    
+}
+
+.navbar_items{
+    display: flex;
+    list-style: none;
+    
+}
+
+.navbar_item{
+    font-family: 'Amatic SC', cursive;
+    font-size: larger;
+    text-decoration: none;
+    color: #B1D0E0;
+}
+
+.logo{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.navbar_items li{
+    margin-right: 20px;
+}
+.bg{
+    background-color: blue;
+    background: url(/images/homepagepic2.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    
+    z-index: -1;
+}
+
+
+.showcase{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 275px;
+    width: 100vw;   
+}
+
+.showcase i{
+    font-size: 40px;
+    color: rgb(26, 55, 77) ;
+}
+
+.showcase_item{
+    background-color: rgba(224, 224, 224, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+    
+    
+}
+
+.showcase_item h2{
+    color: rgb(26, 55, 77);
+    margin: 5px;
+}
+
+.showcase_item a{
+    text-decoration: none;
+}
+
+.main_section{
+    text-align: center;
+    width: 70vw;
+    margin-top: 50px;
+    
+}
+
+.footer{
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(26, 55, 77, 0.6);     
+    color: #B1D0E0;
+    height: 10vh;
+    padding: 25px;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0px;
+    position: fixed;
+    width: 100vw;
+}
+
+.footer_items{
+    display: flex;
+    list-style: none;
+   
+}
+
+.footer_items li{
+    margin-right: 30px;
+}
+
+.footer_item i{
+    font-size: 20px;
+} 
+
+.info_content{
+    position: absolute;
+    top: 100px;
+    width: 100vw;
+    padding: 200px;
+     
+}
+
+.info_item{
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(224, 224, 224, 0.5);
+    border-radius: 10px;
+}
+
+.productmain_content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+
+}
+
+.product_content{
+    align-self: center;
+    width: 50vw;
+    border-bottom: solid 2px rgb(83, 83, 83);
+    
+                  
+}
+
+.productitem{
+    text-align: center;
+    
+}
